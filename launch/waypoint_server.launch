@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <launch>
   <arg name="cli" default="false"/>
+  <arg name="binary" default="waypoints.bin"/>
   <node name="waypoint_server" pkg="telecoV" type="waypoint_server_node.py" output="screen">
-    <param name="waypoint_filepath" type="str" value="$(find telecoV)/waypoints/waypoints.bin" />
+    <param name="waypoint_filepath" type="str" value="$(find telecoV)/waypoints/$(arg binary)" />
     <param name="reference_frame" type="str" value="map" />
     <param name="robot_frame" type="str" value="base_link" />
     <param name="cli" type="bool" value="$(arg cli)" />
