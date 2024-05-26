@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-  <node name="convenience_server" pkg="telecoV" type="convenience_server_node.py" output="screen">
-      <param name="reference_frame" type="str" value="map" />
-      <param name="robot_frame" type="str" value="base_link" />
-  </node>
-</launch>

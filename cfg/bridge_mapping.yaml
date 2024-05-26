@@ -1,0 +1,18 @@
+topics:
+  -
+    topic: /rover_sensor  # Topic name on both ROS 1 and ROS 2
+    type: std_msgs/msg/Int16MultiArray  # Type of topic to bridge
+    queue_size: 10  # Queue size
+  -
+    topic: /rover_odo  # Topic name on both ROS 1 and ROS 2
+    type: geometry_msgs/msg/Twist  # Type of topic to bridge
+    queue_size: 10  # Queue size
+  -
+    topic: /cylinder_pos  # Topic name on both ROS 1 and ROS 2
+    type: geometry_msgs/msg/Point  # Type of topic to bridge
+    queue_size: 10  # Queue size
+  -
+    topic: /rover_twist  # Topic name on both ROS 1 and ROS 2
+    type: geometry_msgs/msg/Twist  # Type of topic to bridge
+    queue_size: 10  # Queue sizes
+

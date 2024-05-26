@@ -1,4 +1,0 @@
-string goal_label
----
-geometry_msgs/Quaternion goal_heading
-bool success

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>telecoV</name>
+  <name>teleco_ros</name>
   <version>0.0.0</version>
   <description>The telecoV package</description>
   
@@ -10,26 +10,15 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <depend>roscpp</depend>
   <depend>rospy</depend>
   <depend>geometry_msgs</depend>
-  <depend>dynamic_reconfigure</depend>
   <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
-  <depend>nav_msgs</depend>
-  <depend>std_srvs</depend>
   <depend>tf2</depend>
   <depend>tf</depend>
-  <depend>rviz</depend>
-  <depend>urdf</depend>
-  <depend>xacro</depend>
-  <depend>libqt5-core</depend>
-  <depend>libqt5-gui</depend>
-  <depend>libqt5-widgets</depend>
+
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
-    <!-- Other tools can request additional information be placed here -->
-    <rviz plugin="${prefix}/plugin_description.xml"/>
   </export>
 </package>
